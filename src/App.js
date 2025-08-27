@@ -26,7 +26,7 @@ function App() {
             <Route path="/animales" element={<Animales />} />
             <Route path="/cultura" element={<Cultura />} />
             <Route path="/educacion" element={<Educacion/>} />
-            <Route path="/gastronamia" element={<Gastronomia />} />
+            <Route path="/gastronomia" element={<Gastronomia />} />
             <Route path="/gratiferia" element={<Gratiferia />} />
             <Route path="/perfil" element={<Perfil/>} />
             <Route path="/servicios" element={<Servicios/>} />

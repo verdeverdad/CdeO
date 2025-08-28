@@ -22,6 +22,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Inicio />} />
+                        <Route path="/CdeO" element={<Inicio />} />
+
             <Route path="/nosotros" element={<LaComunidad />} />
             <Route path="/animales" element={<Animales />} />
             <Route path="/cultura" element={<Cultura />} />

@@ -1,8 +1,7 @@
-import Menu from "../component/menu";
 
 function Viajes () {
   return (
-  <><>  <Menu></Menu></><h1>Viajes</h1></>
+  <> <h1>Viajes</h1></>
   )
 }
 

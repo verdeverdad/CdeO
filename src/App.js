@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Inicio from './paginas/home';
 import Animales from './paginas/animales';
 import Cultura from './paginas/cultura';
@@ -14,16 +14,16 @@ import Trabajos from './paginas/trabajos';
 import Trueques from './paginas/trueques';
 import Mercado from './paginas/ventas';
 import Viajes from './paginas/viajes';
+import Menu from './component/menu';
 
 function App() {
   return (
     <>
       <div className="App">
-        <HashRouter>
+        <BrowserRouter>
+         <Menu /> 
           <Routes>
             <Route path="/" element={<Inicio />} />
-                        <Route path="/CdeO" element={<Inicio />} />
-
             <Route path="/nosotros" element={<LaComunidad />} />
             <Route path="/animales" element={<Animales />} />
             <Route path="/cultura" element={<Cultura />} />
@@ -39,7 +39,7 @@ function App() {
 
 
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
 
       </div>
     </>

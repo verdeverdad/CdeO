@@ -1,9 +1,16 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import portada from '../img/Nav-CdeO1.png';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" style={{
+            backgroundImage: `url(${portada})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            color: 'white',
+            height: 'auto',
+          }}>
       <Container>
         <Row>
           <Col md={4}>

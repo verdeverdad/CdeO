@@ -1,8 +1,7 @@
-import Menu from "../component/menu";
 
 function Animales () {
   return (
-  <><>  <Menu></Menu></><h1>Animales</h1></>
+  <><>  </><h1>Animales</h1></>
   )
 }
 

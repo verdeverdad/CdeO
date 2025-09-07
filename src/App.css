@@ -1,12 +1,15 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --violeta: #6b2985;
+  --amarillo: #ffcc14;
+  --rosa: #ff5757;
+  --verde: #82b527;
+  --gris: #828282;
+  --blanco: #e1e1e1;
+  --negro: #0f0f0f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App {
+  background-color: #e1e1e1;
 }
 
 .App-header {
@@ -51,6 +54,38 @@
 
 .nav-link {
   color: #6b2985 !important;
+}
+
+.bienvenida {
+  background: #6B2985;
+  color: var(--amarillo);
+  padding: 20px;
+}
+
+.bienvenida h1 {
+  color: var(--violeta);
+  text-shadow: #ffcc14 2px 2px 3px, #ffcc14 0 0 1em, #ffcc14 0 0 0.2em;
+  text-align: center;
+}
+
+.bienvenida .subtitulo,
+.bienvenida .finMensaje {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 1.4;
+}
+
+.bienvenida p {
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.2;
+}
+
+.bienvenida .idea {
+  font-style: italic;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .botonVioleta:hover {

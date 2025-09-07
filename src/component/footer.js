@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import portada from '../img/Nav-CdeO1.png';
+import portada from '../img/CdeO-Footer.png';
 
 const Footer = () => {
   return (
@@ -9,9 +9,9 @@ const Footer = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             color: 'white',
-            height: 'auto',
+            height: '400px',
           }}>
-      <Container>
+      <Container fluid>
         <Row>
           <Col md={4}>
             <h5>Acerca de nosotros</h5>

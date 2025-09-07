@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import portada from '../img/Nav-CdeO1.png';
+import portada from '../img/Nav-CdeO2.png';
 import { FaUser } from 'react-icons/fa';
 
 function Menu() {
@@ -22,7 +22,7 @@ function Menu() {
       expand="xxl"
       expanded={expanded}
       onToggle={() => setExpanded(!expanded)}
-      className="d-flex flex-column" // Clave: convierte el Navbar en un contenedor de columna
+      className="d-flex flex-column sticky-top" // Clave: convierte el Navbar en un contenedor de columna
       style={{
         backgroundImage: `url(${portada})`,
         backgroundSize: 'cover',
@@ -41,7 +41,7 @@ function Menu() {
           <small className="mt-1">MENÚ</small>
         </Navbar.Toggle>
 
-        <Navbar.Collapse id="basic-navbar-nav" style={{ backgroundColor: '#ffcc1491', fontWeight: 'bold' }}>
+        <Navbar.Collapse id="basic-navbar-nav" style={{ backgroundColor: '#ffcc14ff', fontWeight: 'bold' }}>
           <Nav className="me-auto text-center">
             <Nav.Link as={Link} to="/">INICIO</Nav.Link>
             <Nav.Link as={Link} to="/nosotros">LA COMUNIDAD</Nav.Link>
@@ -84,7 +84,7 @@ function Menu() {
                 className="me-2 buscar"
                 aria-label="Search"
               />
-              <Button defaultProps= 'none' className='botonVioleta'>Buscar</Button>
+              <Button className='botonVioleta'>Buscar</Button>
             </Form>
           </Container>
         </div>
